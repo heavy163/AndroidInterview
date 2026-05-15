@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>占海飞 — 高级安卓应用工程师</title>
+<style>
+  @page { size: A4; margin: 15mm 14mm 15mm 14mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.6;
+    color: #1a1a1a;
+    max-width: 210mm;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3pt;
+    letter-spacing: 2pt;
+    color: #111;
+  }
+  h2 {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #1a56db;
+    border-bottom: 1.5px solid #1a56db;
+    padding-bottom: 2pt;
+    margin: 12pt 0 6pt 0;
+    letter-spacing: 0.5pt;
+  }
+  h3 {
+    font-size: 10.5pt;
+    font-weight: 600;
+    color: #333;
+    margin: 7pt 0 3pt 0;
+  }
+  hr { border: none; border-top: 0.5px solid #ddd; margin: 6pt 0; }
+  p { margin: 2pt 0; font-size: 10pt; }
+  ul { padding-left: 14pt; margin: 2pt 0 5pt 0; list-style: disc; }
+  li { margin: 1.5pt 0; font-size: 10pt; }
+  li.sub { list-style: circle; margin-left: 8pt; font-size: 9.5pt; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4pt 0;
+    font-size: 10pt;
+  }
+  thead { display: none; }
+  td, th {
+    padding: 2pt 6pt;
+    text-align: left;
+    vertical-align: top;
+  }
+  td:first-child { font-weight: 600; color: #555; width: 85pt; white-space: nowrap; }
+  strong { color: #111; }
+  a { color: #1a56db; text-decoration: none; }
+  code {
+    background: #f0f4ff;
+    padding: 1pt 3pt;
+    border-radius: 2pt;
+    font-size: 9pt;
+    font-family: "Consolas", "SF Mono", monospace;
+  }
+  .badge { margin-right: 2pt; }
+</style>
+</head>
+<body>
+<h1>占海飞 —— 高级安卓应用工程师</h1>
+<hr>
+<h2>联系方式</h2>
+<table><thead><tr><th>项目</th><th>详情</th></tr></thead><tbody><tr><td><strong>手机</strong></td><td>13686839920</td></tr><tr><td><strong>邮箱</strong></td><td>zhanhaifei@126.com</td></tr><tr><td><strong>求职意向</strong></td><td>高级安卓应用工程师 / AI 应用开发工程师</td></tr><tr><td><strong>基本信息</strong></td><td>男 · 35岁 · 本科（211） · 10年经验</td></tr></tbody></table>
+<hr>
+<h2>核心技能</h2>
+<h3>🤖 AI Agent 工程化与研发提效</h3>
+<ul><li><strong>AI Agent 架构与实战</strong>：深入使用 Hermes Agent 平台，掌握 Agent 核心范式——Tool Calling 编排（子任务委派 <code>delegate_task</code> + 代码执行沙箱 + 终端/文件系统工具链）、Skill 管理与复用（将编译诊断、卡顿分析、性能 Benchmark 等固化可复用技能）、Cron Job 异步调度与上下文注入。能够将重复性研发工作（编译诊断、性能回归分析、代码审查、文档生成、面试大纲构建等）拆解为 Agent 可执行的技能链，形成日常研发的 AI 提效工作流</li><li><strong>AI 驱动的 Android 工程效能</strong>：</li><li class="sub"><strong>Lingma</strong>：日常使用 Lingma 进行智能代码补全、Bug 定位与修复建议、代码逻辑解释。善用 AI 生成单元测试骨架和 Compose UI Preview 代码，减少样板代码编写时间</li><li class="sub"><strong>AI 辅助重构</strong>：利用 Agent 分析存量代码，识别性能瓶颈（如主线程 IO、过度绘制、内存泄漏模式），生成优化方案并辅助实施</li><li class="sub"><strong>AI 辅助性能诊断</strong>：将 Systrace / Perfetto 报告导入 LLM 做语义分析，自动提取关键耗时路径和锁竞争热点，替代人工逐帧分析，诊断效率提升显著</li><li><strong>AI 开发工具全栈</strong>：Hermes Agent（任务编排）+ Lingma in AS（代码级 AI）+ Copilot（通用编码辅助），形成"架构→编码→诊断→文档"的 AI 增强闭环</li></ul>
+<h3>📱 Android 平台</h3>
+<ul><li><strong>开发语言</strong>：Kotlin / Java（10 年 Android 开发经验，深入理解 ART 虚拟机、类加载、GC 机制，理解 JVM 字节码）</li><li><strong>架构设计</strong>：组件化 / 模块化架构，MVVM + Clean Architecture，依赖注入（Dagger / Hilt)</li><li><strong>现代 UI</strong>：Jetpack Compose + 传统 View 体系双栈能力，响应式 UI 设计</li><li><strong>性能优化</strong>：启动优化（Baseline Profile / DEX 布局优化 / 懒加载 / Systrace 分析）、内存优化（LeakCanary / MAT）、卡顿治理（主线程监控框架 + systrace / Perfetto）、包体积优化（R8 缩减与混淆 / 资源优化）</li><li><strong>编译加速</strong>：Gradle 构建优化，自定义 Gradle 插件开发，组件化编译缓存策略</li><li><strong>网络与存储</strong>：Retrofit / OkHttp / Room / DataStore / MMKV</li><li><strong>测试体系</strong>：JUnit + Mockito + Espresso + UI Automator，自定义自动化测试 DSL（Gradle 插件）</li><li><strong>持续集成</strong>：Jenkins / GitLab CI 流水线搭建，Git / Gerrit 代码审核，SonarQube 质量管理</li></ul>
+<h3>🖥️ 平台 &amp; 工具链</h3>
+<ul><li><strong>数据处理与分析</strong>：Python（NumPy / Pandas / Polars / Matplotlib / Scikit-learn），熟悉常见数据工程，能够完整落地数据采集、数据清洗、特征提取、可视化分析，构建模型拟合等。</li><li><strong>DevOps</strong>：Docker 基础，Git / Gerrit / Jenkins / Nexus / SonarQube 全流程搭建经验</li></ul>
+<hr>
+<h2>专业概要</h2>
+<p>10 年 Android 应用开发经验，具备从 0 到 1 的架构设计能力及千万DAU项目开发维护能力。善于将 AI 能力嵌入传统业务流程，实现智能化升级。日常使用 Hermes Agent 编排研发任务、Lingma in Android Studio 辅助编码与诊断，形成"架构→编码→诊断→文档"的 AI 提效闭环。曾管理 11 人团队，兼具技术深度与项目领导力。</p>
+<hr>
+<h2>工作经历</h2>
+<h3>深圳市欢太科技有限公司（OPPO） | 高级应用工程师</h3>
+<p>*2021.05 — 2022.06*</p>
+<p>负责 OPPO 游戏中心 Android 客户端需求迭代与技术项目推进，主导<strong>性能优化</strong>与<strong>质量工程</strong>两大方向。</p>
+<p><strong><span class="badge">📌</span> 启动速度优化 —— 冷启动缩短 38%（450ms / 730ms → 目标）</strong></p>
+<ul><li>使用 Systrace / Traceview 分析启动全链路线程协作模型与耗时瓶颈</li><li>梳理 Application.onCreate 依赖关系，实施惰性初始化 + 异步加载</li><li>关键路径埋点监控，实现启动耗时长期可观测</li></ul>
+<p><strong><span class="badge">📌</span> 编译速度优化 —— 无缓存 33%（1m40s），增量 63%（2m20s）提升</strong></p>
+<ul><li>通过 Gradle Profile 定位编译耗时任务，升级 Gradle / AGP 版本</li><li>修复组件化编译插件中未命中 Gradle 增量缓存的问题</li><li>自定义 Transform 合并策略，减少冗余字节码处理</li></ul>
+<p><strong><span class="badge">📌</span> 自动化测试体系建设 —— 零到一的工程化落地</strong></p>
+<ul><li>结合业务结构选用 Espresso + UI Automator + 自研 DSL 插件构建测试框架</li><li>补齐核心业务模块单元测试与 UI 自动化用例，接入 CI 流水线</li><li>实现"测试结果把控版本质量"的迭代闭环，团队内部分享推广</li></ul>
+<p><strong><span class="badge">📌</span> Android 11 / 12 系统兼容</strong></p>
+<ul><li>分析新版本 API 可见性变更与行为变更，梳理 30+ 影响点并完成平滑迁移</li></ul>
+<hr>
+<h3>深圳市亚泰光电技术有限公司 | 软件工程师</h3>
+<p>*2023.04 — 2026.04*</p>
+<p>公司为工业传感器与 IoT 监测设备提供商。负责设备端软件、PC 工具、传感器标定平台的架构设计与开发。</p>
+<p><strong><span class="badge">📌</span> 离线检测设备性能重构 —— 卡顿率 12% → &lt;0.5%</strong></p>
+<ul><li>通过业务重构 + UI 重构 + 计算资源分配优化，系统化治理卡顿</li><li>设计<strong>无侵入式主线程卡顿监控框架</strong>，自动输出卡顿堆栈日志</li><li>编写 Python 脚本实现卡顿信息自动抽取与统计，填补公司离线产品卡顿治理空白</li></ul>
+<p><strong><span class="badge">📌</span> 传感器标定平台（QT / Python）—— 支撑千万级项目产值</strong></p>
+<ul><li>在传感器研发困难期主动介入，利用 Python 数据分析能力协助攻克技术难点</li><li><strong>独立设计开发集数据采集 → 清洗 → 存储 → 参数计算 → 标定 → 精度回测于一体的自动化平台</strong></li><li>利用 Scikit-learn 实现光谱-浓度回归拟合，替代手动标定，精度与效率大幅提升</li></ul>
+<p><strong><span class="badge">📌</span> 在线监测设备软件架构 —— 分层模块化设计</strong></p>
+<ul><li>设计高内聚低耦合的软件架构：组件/服务抽取、设备驱动层、日志/配置/ORM 基础模块封装</li></ul>
+<hr>
+<h3>拓邦股份 | 应用组组长</h3>
+<p>*2017.07 — 2021.05*</p>
+<p>管理 11 人团队（研发 + 设计 + 测试），负责部门应用软件研发全局工作。</p>
+<p><strong><span class="badge">📌</span> 智能集成灶（IoT 多端协同系统）—— 研发负责人 &amp; 项目经理</strong></p>
+<ul><li>产品涵盖下控板 / 头部板 / 安卓屏端 / iOS &amp; Android 手机端 / 后台服务 / 实时通信 / 售后系统 / 商城</li><li>负责全闭环：需求对接 → 技术架构 → 通信协议设计 → 安卓屏端 &amp; 手机端开发 → 测试验证</li><li>多端协同通信架构（LCD + Android + 手机），支持蓝牙音乐 / 微波人体感应 / 手势感应等智能交互</li></ul>
+<p><strong><span class="badge">📌</span> 智能跑步机 —— 多模式运动终端 APP</strong></p>
+<ul><li>MCU 通信协议实现、网络框架优化、多种跑步模式（影音 / 地图 / 智能）</li><li>用户数据体系 + 运动数据统计 + 微信分享 + OTA 升级 + 内存一键清理</li></ul>
+<p><strong><span class="badge">📌</span> DevOps 平台建设 —— 从 0 到 1 规范化研发流程</strong></p>
+<ul><li>独立搭建 <strong>禅道 + GitLab + Jenkins + Gerrit + SonarQube + Nexus</strong> 全流程研发平台</li><li>帮助公司其他事业部搭建持续集成与代码质量管理平台，产生跨部门示范效应</li></ul>
+<hr>
+<h3>飞看科技 | 软件工程师（驻腾讯客厅产品部）</h3>
+<p>*2015.07 — 2017.06*</p>
+<p><strong><span class="badge">📌</span> 腾讯视频 TV 版 UI 自动化测试 DSL</strong></p>
+<ul><li>基于 Gradle 自研 DSL 插件，实现"开发提供页面结构 → 测试编写脚本"的协作模式</li><li>获得腾讯团队领导一致好评</li></ul>
+<p><strong><span class="badge">📌</span> 智能电视系统应用开发</strong></p>
+<ul><li>腾讯 Q 主题 / 腾讯视频 / 设置向导 / 状态栏 / OTA 自升级</li></ul>
+<hr>
+<h3>同洲电子 | 软件工程师</h3>
+<p>*2013.07 — 2015.07*</p>
+<ul><li>负责开机向导、系统设置、网络升级、通信应用等系统级 App 开发与维护</li></ul>
+<hr>
+<h2>开源项目</h2>
+<table><thead><tr><th>项目</th><th>描述</th></tr></thead><tbody><tr><td><strong>AutoUML Gradle 插件</strong></td><td>加载 Java 字节码，自动绘制类聚集关系 UML 图</td></tr><tr><td><strong>AndroidTestPlugin</strong></td><td>基于 Gradle 的 Android UI 自动化测试 DSL 插件</td></tr><tr><td><strong>AndroidStartSequence</strong></td><td>基于 PlantUML 的 Android 系统启动时序图</td></tr></tbody></table>
+<p>🔗 <a href="https://github.com/heavy-james">github.com/heavy-james</a></p>
+<hr>
+<h2>教育背景</h2>
+<table><thead><tr><th>项目</th><th>详情</th></tr></thead><tbody><tr><td><strong>学校</strong></td><td>南昌大学（211）</td></tr><tr><td><strong>专业</strong></td><td>计算机科学与技术</td></tr><tr><td><strong>时间</strong></td><td>2009.09 — 2013.06</td></tr><tr><td><strong>证书</strong></td><td>英语六级（CET-6）</td></tr></tbody></table>
+<hr>
+<h2>自我评价</h2>
+<ul><li><strong>技术广度与深度兼备</strong>：从 Android 内核机制（ART / Binder / 编译优化）到跨平台开发（QT/C++）再到 AI 应用（数据建模 / AI Agent 工程化），具备 T 型技术竞争力</li><li><strong>AI 时代的实践者</strong>：不满足于"用 AI 工具"，而是深入研究Agent 架构（Tool Calling / Skill 编排 / 异步调度），并将 AI 能力融入日常研发流程中。</li><li><strong>性能优化</strong>：在启动优化、卡顿治理、编译加速三个维度有系统方法论和量化成果</li><li><strong>工程化思维</strong>：多次从 0 到 1 搭建研发平台与测试体系，善于用工具和流程提升团队效能</li><li><strong>领导力</strong>：带领 11 人团队完成复杂 IoT 产品从需求到交付的完整闭环</li></ul>
+</body>
+</html>
